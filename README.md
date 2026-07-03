@@ -12,7 +12,11 @@ By restructuring data spaces based on relative similarity rather than static tar
 The technical framework governing similarity-based extraction has transitioned from early parametric Siamese distance checks to global cross-entropy matrix allocations, moving toward non-contrastive variance tracking and unified cross-modal foundation tokenization engines.
 
 ```mermaid
-[Siamese Margin Networks (2005)] ───> [Global InfoNCE Scaling (SimCLR, 2020)] ───> [Non-Contrastive Manifolds (VICReg, 2022)] ───> [Cross-Modal Alignment (CLIP, 2021-Present)](Fragile Pairwise Contrast Losses)       (Massive VRAM Mini-Batch Demands)           (Variance-Covariance Identity Tracking)      (Open-Vocabulary Shared Text-Pixel Spaces)
+flowchart LR
+    A["Siamese Margin Networks (2005)<br/>(Pairwise Margin-Based Metric Learning)"]
+    --> B["Global InfoNCE Scaling (SimCLR, 2020)<br/>(Large-Batch Contrastive Learning)"]
+    --> C["Non-Contrastive Representation Learning (VICReg, 2022)<br/>(Variance–Invariance–Covariance Regularization)"]
+    --> D["Cross-Modal Alignment (CLIP, 2021–Present)<br/>(Shared Vision–Language Embedding Spaces)"]
 ```
 
 *   **The Pairwise Siamese Margin Era (Traditional Deep Learning, ~2005–2018)**
@@ -58,7 +62,18 @@ Contrastive frameworks are strictly categorized based on how the similarity loss
 To map alternative sensory signals cleanly into a single shared workspace, contrastive pipelines route unaligned towers through linear projection heads concurrently.
 
 ```mermaid
-Dual-Tower Cross-Modal Alignment Matrix[Raw Visual Canvas] ───> [Vision Encoder (ViT)] ───> [Image Embedding (h_v)] ───┐├──> [Symmetric InfoNCE / Sigmoid Loss][Natural Language] ───> [Text Encoder (Transformer)] ──> [Text Embedding (h_t)] ──┘
+flowchart LR
+
+A["Raw Visual Canvas"]
+--> B["Vision Encoder<br/>(ViT)"]
+--> C["Image Embedding (hᵥ)"]
+
+D["Natural Language"]
+--> E["Text Encoder<br/>(Transformer)"]
+--> F["Text Embedding (hₜ)"]
+
+C --> G["Symmetric Contrastive Loss<br/>(InfoNCE / Sigmoid Loss)"]
+F --> G
 ```
 
 *   **Cross-Modal Linear Projections**
