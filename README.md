@@ -112,6 +112,21 @@ Deploying large-scale contrastive learning pipelines across distributed high-per
 
 ---
 
+
+## ⭐ Star History
+
+<div align="center">
+<a href="https://www.star-history.com/?repos=ishandutta2007%2FAwesome-Contrastive-Learning&type=date&legend=bottom-right">
+<picture>
+<source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=ishandutta2007/Awesome-Contrastive-Learning&type=date&theme=dark&legend=bottom-right" />
+<source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=ishandutta2007/Awesome-Contrastive-Learning&type=date&legend=bottom-right" />
+<img alt="Star History Chart" src="https://api.star-history.com/chart?repos=ishandutta2007/Awesome-Contrastive-Learning&type=date&legend=bottom-right" />
+</picture>
+</a>
+</div>
+
+---
+
 To advance this documentation repository, structural setup, or post-training deployment pipeline, consider exploring these adjacent development pathways:
 * Build a **Python code snippet using PyTorch** illustrating how to construct a manual InfoNCE contrastive loss layer that tracks a temperature-scaled dot product matrix [INDEX: 10].
 * Generate a **comprehensive Markdown table** explicitly comparing Pairwise Siamese Margin Loss, Global InfoNCE (SimCLR), Momentum Contrast (MoCo), Non-Contrastive VICReg, and Sigmoid Loss (SigLIP) across mathematical time complexities, mini-batch size constraints, requirement for negative sample allocations, and vulnerability to latent representation collapse [INDEX: 4, 10].
