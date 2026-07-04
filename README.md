@@ -1,5 +1,10 @@
-# Awesome-Contrastive-Learning
-## Contrastive Learning in AI: History, Progression, Variants, & Applications
+# 🌟 Awesome Contrastive Learning
+<div align="center">
+  <img src="assets/banner.svg" alt="Awesome Contrastive Learning Banner" width="100%">
+</div>
+
+
+## 🧠 Contrastive Learning in AI: History, Progression, Variants, & Applications
 
 **Contrastive Learning** is a foundational self-supervised representation learning paradigm designed to map raw, unlabelled data into a continuous, lower-dimensional embedding space without human annotations [INDEX: 4]. The core mathematical objective is intuitive yet mathematically rigorous: the framework forces the neural network to learn representations by pulling semantically similar inputs (positive pairs) close together in the latent space while aggressively pushing dissimilar inputs (negative pairs) far apart. 
 
@@ -7,7 +12,7 @@ By restructuring data spaces based on relative similarity rather than static tar
 
 ---
 
-## 1. The Macro Chronological Evolution
+## ⏳ 1. The Macro Chronological Evolution
 
 The technical framework governing similarity-based extraction has transitioned from early parametric Siamese distance checks to global cross-entropy matrix allocations, moving toward non-contrastive variance tracking and unified cross-modal foundation tokenization engines.
 
@@ -28,7 +33,7 @@ flowchart LR
 
 ---
 
-## 2. Core Functional & Algorithmic Loss Variants
+## 🧮 2. Core Functional & Algorithmic Loss Variants
 
 Contrastive frameworks are strictly categorized based on how the similarity loss matrices are mathematically formulated and normalized at training time.
 
@@ -41,7 +46,7 @@ Contrastive frameworks are strictly categorized based on how the similarity loss
 
 ---
 
-## 3. The Cross-Modal Contrastive Integration Matrix
+## 🔄 3. The Cross-Modal Contrastive Integration Matrix
 
 To map alternative sensory signals cleanly into a single shared workspace, contrastive pipelines route unaligned towers through linear projection heads concurrently.
 
@@ -67,7 +72,7 @@ F --> G
 
 ---
 
-## 4. Production Engineering Challenges & Hardware Solutions
+## ⚙️ 4. Production Engineering Challenges & Hardware Solutions
 
 Deploying large-scale contrastive learning pipelines across distributed high-performance computing configurations introduces severe memory bus and cluster communication penalties.
 
@@ -78,7 +83,7 @@ Deploying large-scale contrastive learning pipelines across distributed high-per
 
 ---
 
-## 5. Frontier Real-World AI Industrial Applications
+## 🚀 5. Frontier Real-World AI Industrial Applications
 
 | Application Domain | Description & Implementation | Year First Used | First Used Paper |
 | :--- | :--- | :--- | :--- |
@@ -88,7 +93,7 @@ Deploying large-scale contrastive learning pipelines across distributed high-per
 
 ---
 
-## References
+## 📚 References
 1. Hadsell, R., Chopra, S., & LeCun, Y. (2006). Dimensionality reduction by learning an invariant mapping. *Proceedings of the IEEE Computer Society Conference on Computer Vision and Pattern Recognition (CVPR)*, 2, 1735-1742.
 2. Oord, A. v. d., Li, Y., & Vinyals, O. (2018). Representation learning with contrastive predictive coding. *arXiv preprint arXiv:1807.03748*.
 3. Chen, T., et al. (2020). A simple framework for contrastive learning of visual representations. *International Conference on Machine Learning (ICML)*, 1597-1607 [INDEX: 4].
