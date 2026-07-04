@@ -3,7 +3,16 @@
   <img src="assets/banner.svg" alt="Awesome Contrastive Learning Banner" width="100%">
 </div>
 
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a><a href="https://github.com/ishandutta2007/Awesome-Contrastive-Learning/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square" alt="License"/></a><a href="https://github.com/ishandutta2007/Awesome-Contrastive-Learning/issues"><img src="https://img.shields.io/github/issues/ishandutta2007/Awesome-Contrastive-Learning?style=flat-square" alt="Issues"/></a><a href="http://makeapullrequest.com"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" alt="PRs Welcome"/></a>
+</p>
 
+
+
+
+
+
+> **Keywords**: Self-Supervised Learning, Metric Learning, Representation Learning, Siamese Networks, InfoNCE Loss, VICReg, SigLIP, Triplet Loss, Computer Vision (CV), Natural Language Processing (NLP), Multimodal AI, RAG.
 ## 🧠 Contrastive Learning in AI: History, Progression, Variants, & Applications
 
 **Contrastive Learning** is a foundational self-supervised representation learning paradigm designed to map raw, unlabelled data into a continuous, lower-dimensional embedding space without human annotations [INDEX: 4]. The core mathematical objective is intuitive yet mathematically rigorous: the framework forces the neural network to learn representations by pulling semantically similar inputs (positive pairs) close together in the latent space while aggressively pushing dissimilar inputs (negative pairs) far apart. 
